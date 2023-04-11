@@ -1,0 +1,185 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+    
+      <div class="content-container">
+        <div class="content">
+          <p1>Choose your Payment Method</p1>
+          <div class="row-1">
+            <div class="send">
+              <input type="radio" id="send-money" name="send" />
+              <label for="send-money">Send Money</label>
+
+              <img src="../images/safaricom.jpeg" class="safaricom" />
+              <img src="../images/airtel.jpeg" class="airtel" />
+              <img src="../images/telkom.jpeg" class="telkom" />
+<br><br>
+              <form>
+                <div class="did-floating-label-content">
+
+                    <select class="did-floating-select" onclick="this.setAttribute('value', this.value);" onchange="this.setAttribute('value', this.value);" value="">
+                      <option value=""></option>
+                      <option value="1">SAFARICOM MPESA</option>
+                      <option value="2">AIRTEL MONEY</option>
+                      <option value="3">TELKOM</option>
+                    </select>
+            <label class="did-floating-label">SELECT OPERATOR</label>
+                  </div>
+              </form>
+              
+              <p>pay "FUTUREFAST" ksh 1000.00</p><br />
+              <div>
+                <ol>
+                  <li>provide your valid mpesa number</li>
+                  <li>click pay, then input your mpesa pin when prompted to</li>
+                  <li>
+                    you will receive a transaction message once transaction is
+                    complete
+                  </li>
+                </ol>
+              </div>
+              <br />
+
+              <form action="">
+                <div class="did-floating-label-content">
+                    <input class="did-floating-input" type="number" placeholder="7 000 00 000 ">
+                    <label class="did-floating-label">MOBILE NUMBER</label>
+                  
+                  </div>
+</form>
+</div>
+
+            <div class="send">
+              <input type="radio" id="credit-card" name="send" />
+              <label for="credit-card">Credit Card</label>
+
+              <div class="icons">
+                <img src="../images/unionpay.svg" width="25" />
+                <img src="../images/mastercard.svg" width="25" />
+                <img src="../images/visa.svg" width="25" />
+              </div>
+              <p>provide your card details</p><br>
+
+              <form action="">
+               
+                  <div class="did-floating-label-content">
+                    <input class="did-floating-input" type="text" id="name" placeholder="JANE DOE" />
+                    <label class="did-floating-label">NAME ON CARD</label>
+</div>
+
+  <div class="email-flex">
+    <div class="did-floating-label-content">
+        <input class="did-floating-input email" type="email" id="email" placeholder="johndoe@gmail.com"/>  
+        <label class="did-floating-label">EMAIL</label>
+    </div>
+      
+    <div class="did-floating-label-content">
+        <input class="did-floating-input country" type="text" id="country" placeholder="KENYA"/>  
+        <label class="did-floating-label">COUNTRY</label>
+    </div>
+  </div>
+    <div class="mobile-flex" >
+<div class="did-floating-label-content">
+    <input class="did-floating-input mobile" type="number" id="mobile" placeholder="7 000 00 000"/>  
+    <label class="did-floating-label">MOBILE NUMBER</label>
+</div>
+
+<div class="did-floating-label-content city">
+    <input class="did-floating-input" type="text" id="city" placeholder="NAIROBI"/>  
+    <label class="did-floating-label">CITY</label>
+</div>  
+</div> 
+
+<div class="zip-flex">
+<div class="did-floating-label-content zip">
+    <input class="did-floating-input" type="number" id="zip" placeholder="00100"/>  
+    <label class="did-floating-label">ZIP CODE</label>
+</div>
+
+<div class="did-floating-label-content adress">
+    <input class="did-floating-input" type="text" id="adress" placeholder="P.O BOX 1892"/>  
+    <label class="did-floating-label">POSTAL ADRESS</label>
+</div>
+</div>
+
+<div class="did-floating-label-content">
+    <input class="did-floating-input card" type="text" id="card" placeholder="3663 7282 7297 8187"/> 
+    <label class="did-floating-label">CARD NUMBER</label>
+</div>
+<div class="cvv-flex">
+<div class="did-floating-label-content cvv">
+    <input class="did-floating-input" type="password" id="cvv" placeholder="***"/> 
+    
+    <label class="did-floating-label">CVV</label>
+</div>
+<div class="did-floating-label-content date"> 
+    <input class="did-floating-input" type="text" id="date" placeholder="MM/YY"/>  
+    <label class="did-floating-label">EXPIRY DATE</label>
+</div>
+</div>
+</form>
+</div>
+          
+          <div class="row">
+            <p class="summary">Summary</p>
+            <div class="packet-flex">
+                <p>Packet:</p>
+            <p>Full Package</p>
+            </div>
+
+            <div class="duration-flex">
+                <p>Duration:</p>
+                <p>3m</p>
+                </div>
+<br>
+                <div class="translations-flex">
+                    <p>Translations:</p>
+                <p>Ksh 1200.00</p>
+                </div>
+
+                <div class="discount-flex">
+                    <p>Discount for points:</p>
+                <p>Ksh 0.00</p>
+                </div>
+
+                <div class="card-flex">
+                    <p>Gift card Discounts:</p>
+                <p>Ksh 0.00</p>
+                </div>
+                <br>
+                <div class="link-flex">
+                    <a href="#">have a discount?</a>
+                    <p>Ksh 1200.00</p>
+                </div><br>
+<div class="agreement">
+                    <input type="checkbox" id="agree" name="agreement" />
+                    <label for="agree">
+                      I have read and accept FutureFast Privacy Policy,
+                      including that futurefast may email and SMS me about the
+                      services it provides. by providing a contact number, I
+                      invite FutureFast or its trusted Parners to call me during
+                      the call center opening hours to discuss the policies.
+                    </label>
+                </div>
+            </div>
+            <div class="text-center">
+          <button class="btn">Pay Ksh 1200.00
+            <img src="../images/arrow.svg" class="arrow" width="10">
+          </button>
+        </div> 
+          </div>
+        </div>
+      </div>
+
+     
+      </div>
+    </div>
+  </body>
+</html>
