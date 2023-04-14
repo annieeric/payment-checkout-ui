@@ -60,7 +60,7 @@ ul a{
     /*white-space: nowwrap;*/
     user-select: none;
     /*text-size-adjust: 100%;*/
-    background-color: blue;
+    background-color:greenyellow;
     color: white;
 }
 
@@ -125,7 +125,7 @@ ul a{
     border: width 10px;
     border: 0.7px solid #dcdcdc;
     border-radius: 15px;
-    height: 735px;
+    height: 510px;
     transform: translate(-50% -50%);
     position: relative;
 }
@@ -202,7 +202,7 @@ ul a{
     right: 50px;
     position: absolute;
 
-    display: flex;
+   display: flex;
    }
 
  /*.row{
@@ -220,12 +220,12 @@ ul a{
     /* display: flex; */
     /*justify-content: center;*/
     border: width 10px;
-    margin-top: -748;
+    margin-top: -515;
     border-radius: 10px;
     border: 0.7px solid #dcdcdc;
     height: 500px;
-    width: 60% ; /*align-items: center;*/
-    margin-left: 700;
+    width: 30% ; /*align-items: center;*/
+    margin-left: 800;
     transform: translate(-50% -50%);
     position: relative;
     padding: 30px 20px;
